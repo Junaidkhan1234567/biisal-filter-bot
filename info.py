@@ -22,7 +22,7 @@ USERNAME = environ.get('USERNAME', "https://WOLVERINE_P")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002177643683'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/mobizhub3')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001911817898').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kingkhan121:kingkhan121@cluster0.cwtmn7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kingkhan121:kingkhan121@cluster0.cwtmn7c.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
